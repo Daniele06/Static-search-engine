@@ -1,0 +1,119 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Applies to whole page */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Headings font */
+h1,
+h2,
+h3 {
+    font-family: 'Roboto Slab', serif;
+}
+
+#top-header {
+    background-color: #f5f5f5;
+    padding: 20px 0px 15px 40px;
+    border-bottom: 1px solid #bbbbbb;
+}
+
+#top-header img {
+    width: 40px;
+    margin-top: -5px;
+}
+
+.search-bar {
+    margin: -45px 10px 0px 60px;
+}
+
+.search-bar input {
+    box-shadow: 3px 5px 10px #dfdfdf;
+    border: 1px solid #c4c4c4;
+    border-radius: 5px;
+    padding: 10px 30% 10px 10px;
+    color: #313131;
+    font-size: 1em;
+}
+
+.search-bar button {
+    background-color: #48b2e6;
+    color: white;
+    border: 1px solid #c4c4c4;
+    margin-left: -70px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 10px;
+    font-size: 1em;
+}
+
+.search-bar button:hover {
+    cursor: pointer;
+    transition-duration: 0.1s;
+    background-color: #f8ce24;
+}
+
+.top-header-links {
+    float: right;
+    margin-top: -30px;
+}
+
+.top-header-links a {
+    color: #5c5c5c;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 0.8em;
+}
+
+.top-header-links a:hover {
+    color: #48b2e6;
+}
+
+.top-navbar {
+    margin: 15px 0px 0px 65px;
+}
+
+.top-navbar a {
+    margin: 10px;
+}
+
+.active-link {
+    color: black;
+    text-underline-position: under;
+}
+
+.inactive-links {
+    color: grey;
+    text-decoration: none;
+}
+
+.image-results-container {
+    text-align: center;
+}
+
+.image-results {
+    text-align: center;
+    display: inline-block;
+    overflow: hidden;
+    margin: 5px;
+    width: 20%;
+}
+
+
+
+
+
+
+footer {
+    color: #222121;
+    clear: both;
+    position: relative;
+    height: 50px;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
